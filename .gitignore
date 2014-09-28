@@ -19,6 +19,7 @@ eclipse/logs
 eclipse/config
 eclipse/saves
 eclipse/crash-reports
+eclipse/.recommenders
 gradle/
 gradlew
 gradlew.bat

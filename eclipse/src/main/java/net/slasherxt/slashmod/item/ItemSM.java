@@ -3,6 +3,7 @@ package net.slasherxt.slashmod.item;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.slasherxt.slashmod.creativetab.CreativeTabSM;
 import net.slasherxt.slashmod.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -10,6 +11,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 public class ItemSM extends Item {
 	public ItemSM() {
 		super();
+		setCreativeTab(CreativeTabSM.SM_TAB);
 	}
 	
 	@Override

@@ -1,7 +1,9 @@
 package net.slasherxt.slashmod;
 
 import net.slasherxt.slashmod.handler.ConfigurationHandler;
+import net.slasherxt.slashmod.init.ModBlocks;
 import net.slasherxt.slashmod.init.ModItems;
+import net.slasherxt.slashmod.init.Recipes;
 import net.slasherxt.slashmod.proxy.IProxy;
 import net.slasherxt.slashmod.reference.Reference;
 import net.slasherxt.slashmod.utility.LogHelper;
@@ -29,12 +31,14 @@ public class SlashMod {
 		FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 		
 		ModItems.init();
+		ModBlocks.init();
 		
 		LogHelper.info("PreInit Complete");
 	}
 	
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
+		Recipes.init();
 		LogHelper.info("Init Complete");
 	}
 	
