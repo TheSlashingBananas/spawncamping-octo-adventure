@@ -1,0 +1,17 @@
+[
+{
+  "modid": "SlashMod",
+  "name": "SlashMod",
+  "description": "Bringing you all the things I like!",
+  "version": "1.0",
+  "credits": "Thanks to Pahimar for helping me get started.",
+  "logoFile": "",
+  "mcversion": "1.7.2",
+  "url": "",
+  "updateUrl": "",
+  "authors": [ "SlasherXT" ],
+  "parent":"",
+  "screenshots": [],
+  "dependencies": [ "mod_MinecraftForge" ]
+}
+]
