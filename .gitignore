@@ -17,7 +17,6 @@ bin/
 .settings/
 eclipse/logs
 eclipse/config
-eclipse/crash-reports
 gradle/
 gradlew
 gradlew.bat
