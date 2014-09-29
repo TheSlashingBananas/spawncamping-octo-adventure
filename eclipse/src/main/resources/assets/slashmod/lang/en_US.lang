@@ -1,7 +1,0 @@
-item.slashmod:banana.name=Banana
-item.slashmod:bananaBunch.name=Bunch o' Bananas
-item.slashmod:bananaPeel.name=Banana Peel
-
-tile.slashmod:bananaBlock.name=Banana Block
-
-itemGroup.slashmod=SlashMod

@@ -1,0 +1,12 @@
+item.slashmod:banana.name=Banana
+item.slashmod:bananaBunch.name=Bunch o' Bananas
+item.slashmod:bananaPeel.name=Banana Peel
+item.slashmod:bananaAxe.name=Banana Axe
+item.slashmod:bananaPickaxe.name=Banana Pickaxe
+item.slashmod:bananaSpade.name=Banana Shovel
+item.slashmod:bananaSword.name=Banana Sword
+item.slashmod:bananaHoe.name=Banana Hoe
+
+tile.slashmod:bananaBlock.name=Banana Block
+
+itemGroup.slashmod=SlashMod

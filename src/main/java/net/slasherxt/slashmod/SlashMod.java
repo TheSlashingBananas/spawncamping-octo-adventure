@@ -3,6 +3,7 @@ package net.slasherxt.slashmod;
 import net.slasherxt.slashmod.handler.ConfigurationHandler;
 import net.slasherxt.slashmod.init.ModBlocks;
 import net.slasherxt.slashmod.init.ModItems;
+import net.slasherxt.slashmod.init.ModTools;
 import net.slasherxt.slashmod.init.Recipes;
 import net.slasherxt.slashmod.proxy.IProxy;
 import net.slasherxt.slashmod.reference.Reference;
@@ -32,6 +33,7 @@ public class SlashMod {
 		
 		ModItems.init();
 		ModBlocks.init();
+		ModTools.init();
 		
 		LogHelper.info("PreInit Complete");
 	}
