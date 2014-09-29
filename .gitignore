@@ -15,11 +15,7 @@ bin/
 .metadata/
 .gradle/
 .settings/
-eclipse/logs
-eclipse/config
-eclipse/saves
-eclipse/crash-reports
-eclipse/.recommenders
+eclipse/
 gradle/
 gradlew
 gradlew.bat
