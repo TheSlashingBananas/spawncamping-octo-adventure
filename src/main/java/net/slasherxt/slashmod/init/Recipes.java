@@ -8,7 +8,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 
 public class Recipes {
 	public static void init() {
-		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.banana), "ggg", "gag", "ggg", 'g', new ItemStack(Items.gold_ingot), 'a', new ItemStack(Items.apple)));
+		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.banana), "ggg", "gag", "ggg", 'g', new ItemStack(Items.gold_ingot), 'a', new ItemStack(Items.potato)));
 		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.bananaBlock), "pbp", "bsb", "pbp", 'p', new ItemStack(ModItems.bananaPeel), 'b', new ItemStack(ModItems.bananaBunch), 's', new ItemStack(ModItems.banana)));
 		GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.bananaPeel), new ItemStack(ModItems.banana)));
 		GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.bananaBunch), new ItemStack(ModItems.banana), new ItemStack(ModItems.banana), new ItemStack(ModItems.banana)));
