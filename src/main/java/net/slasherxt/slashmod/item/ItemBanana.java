@@ -4,6 +4,5 @@ public class ItemBanana extends ItemSM {
 	public ItemBanana() {
 		super();
 		setUnlocalizedName("banana");
-		maxStackSize = 3;
 	}
 }

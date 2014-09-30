@@ -11,7 +11,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 public class ItemSM extends Item {
 	public ItemSM() {
 		super();
-		setCreativeTab(CreativeTabSM.SM_TAB);
+		this.setCreativeTab(CreativeTabSM.SM_TAB);
 	}
 	
 	@Override
