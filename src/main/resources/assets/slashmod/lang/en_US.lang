@@ -6,7 +6,22 @@ item.slashmod:bananaPickaxe.name=Banana Pickaxe
 item.slashmod:bananaSpade.name=Banana Shovel
 item.slashmod:bananaSword.name=Banana Sword
 item.slashmod:bananaHoe.name=Banana Hoe
+item.slashmod:redOreItem.name=Red Ore Item
+item.slashmod:blueOreItem.name=Blue Ore Item
+item.slashmod:greenOreItem.name=Green Ore Item
+item.slashmod:orangeOreItem.name=Orange Ore Item
+item.slashmod:whiteOreItem.name=White Ore Item
+item.slashmod:yellowOreItem.name=Yellow Ore Item
+
+
+item.bananaSeed.name=Banana Seed
 
 tile.slashmod:bananaBlock.name=Banana Block
+tile.slashmod:redOre.name=Red Ore
+tile.slashmod:blueOre.name=Blue Ore
+tile.slashmod:greenOre.name=Green Ore
+tile.slashmod:orangeOre.name=Orange Ore
+tile.slashmod:whiteOre.name=White Ore
+tile.slashmod:yellowOre.name=Yellow Ore
 
 itemGroup.slashmod=SlashMod

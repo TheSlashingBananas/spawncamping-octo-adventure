@@ -3,8 +3,11 @@ package net.slasherxt.slashmod.init;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 import net.slasherxt.slashmod.item.ItemSM;
-import net.slasherxt.slashmod.item.tool.BananaAxe;
-import net.slasherxt.slashmod.item.tool.BananaPickaxe;
+import net.slasherxt.slashmod.item.tool.banana.BananaAxe;
+import net.slasherxt.slashmod.item.tool.banana.BananaHoe;
+import net.slasherxt.slashmod.item.tool.banana.BananaPickaxe;
+import net.slasherxt.slashmod.item.tool.banana.BananaSpade;
+import net.slasherxt.slashmod.item.tool.banana.BananaSword;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class ModTools {

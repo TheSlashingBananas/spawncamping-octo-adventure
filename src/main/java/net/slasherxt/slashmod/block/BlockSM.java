@@ -32,4 +32,9 @@ public class BlockSM extends Block {
 	public void registerBlockIcons(IIconRegister iconRegister) {
 		blockIcon = iconRegister.registerIcon(String.format("%s", getUnwrappedUnlocalizedName(this.getUnlocalizedName())));
 	}
+	
+	@Override
+	public boolean isOpaqueCube() {
+		return false;
+	}
 }

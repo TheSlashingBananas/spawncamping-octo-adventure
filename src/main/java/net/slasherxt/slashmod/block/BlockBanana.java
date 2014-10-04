@@ -1,6 +1,7 @@
 package net.slasherxt.slashmod.block;
 
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Blocks;
 import net.minecraft.world.World;
 import net.slasherxt.slashmod.utility.LogHelper;
 
@@ -15,11 +16,12 @@ public class BlockBanana extends BlockSM {
 	}
 	
 	@Override
-	public boolean onBlockActivated(World world, int p_149727_2_, int p_149727_3_, int p_149727_4_, EntityPlayer entityPlayer, int p_149727_6_, float p_149727_7_, float p_149727_8_, float p_149727_9_) {
+	public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer entityPlayer, int p_149727_6_, float p_149727_7_, float p_149727_8_, float p_149727_9_) {
 		LogHelper.info(entityPlayer.getDisplayName());
 		
-		entityPlayer.getFoodStats().setFoodLevel(20);
+		entityPlayer.getFoodStats().addStats(20, 7.2F);
 		entityPlayer.setHealth(20);
+		world.setBlockToAir(x, y, z);
 		
 		return false;
 	}

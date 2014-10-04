@@ -1,6 +1,7 @@
 package net.slasherxt.slashmod;
 
 import net.slasherxt.slashmod.handler.ConfigurationHandler;
+import net.slasherxt.slashmod.init.EventBus;
 import net.slasherxt.slashmod.init.ModBlocks;
 import net.slasherxt.slashmod.init.ModItems;
 import net.slasherxt.slashmod.init.ModTools;
@@ -8,6 +9,7 @@ import net.slasherxt.slashmod.init.Recipes;
 import net.slasherxt.slashmod.proxy.IProxy;
 import net.slasherxt.slashmod.reference.Reference;
 import net.slasherxt.slashmod.utility.LogHelper;
+import net.slasherxt.slashmod.world.WorldGenManager;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -34,6 +36,8 @@ public class SlashMod {
 		ModItems.init();
 		ModBlocks.init();
 		ModTools.init();
+		
+		EventBus.init();
 		
 		LogHelper.info("PreInit Complete");
 	}
